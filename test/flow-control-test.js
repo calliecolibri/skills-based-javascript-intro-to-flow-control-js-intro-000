@@ -53,7 +53,7 @@ describe('flow-control', () => {
     })
 
     it('should return "You are a grownup" if the age is 20 or above', () => {
-      expect(ageChecker(29)).toEqual("You are a grownup")
+      expect(ageChecker(20)).toEqual("You are a grownup")
     })
   })
 
